@@ -180,10 +180,14 @@ nav li {
     background-image: url(../images/R0072924.JPG);
 }
 
+.buckets .nature-in-the-city {
+    background-image: url(../images/013.JPG);
+}
+
 .newsletter {
     height: 120px;
     background-color: #e3e7e6;
-    color: darkslategrey;
+    color:darkslategrey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,23 +281,25 @@ nav li {
 footer {
     display: flex;
     justify-content: space-between;
-    background-color:darkslategray;
+    background-color: darkslategrey;
     padding: 60px 100px;
 }
 
 footer > section {
-    width: 200px;
+    width: 210px;
 }
 
 .about-me h5 {
     font-weight: 200;
-    margin: 0 0 10px ;
+    margin: 0 0 17px ;
+    color: #e3e7e6;
 }
 
 .about-me p {
-    font-size: 10px;
-    line-height: 1;
-    margin: 0 0 20px 0;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #e3e7e6;
+    margin: 0 0 17px 0;
 }
 
 .social-media {
@@ -316,13 +322,14 @@ footer > section {
 }
 
 social-media a {
-    color: white;
+    color: #e3e7e6;
     text-decoration: none;  
 }
 
 .contact-details {
-    width: 140px;
-    margin-left: 40px;
+    width: 190px;
+    margin-left: 20px;
+
 }
 
 .contact-details ul {
@@ -333,21 +340,22 @@ social-media a {
 
 .contact-details li {
     font-size: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     display: flex;
+    color: #e3e7e6;
     
 }
 
 .contact-details i {
     color: white;
-    margin-right: 10px;
+    margin-right: 15px;
 
 }
 
 .quick-links {
     display: flex;
     width: 400px;
-    margin-left: 30px;
+    margin-left: 20px;
     
 }
 
@@ -355,14 +363,15 @@ social-media a {
     padding: 0;
     margin: 0 10px 0 0;
     outline-style: none;
-    width: 150px;
+    width: 220px;
+    list-style: none;
     
 }
 
 .quick-links a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .quick-links li {
@@ -370,18 +379,18 @@ social-media a {
     padding: 11px 0;
 }
 
-.quick-links ul li:first-child {
+.quick-links ul li: first-child {
     padding-top: 0;
 }
 
 .quick-links {
-    color: white;
+    color: #e3e7e6;
     font-size: 8px;
     margin-right: 8px;
 }
 
 .copyright {
-    background-color: white;
+    background-color:#e3e7e6;
     height: 50px;
     color: black;
     margin: 0;
@@ -392,7 +401,8 @@ social-media a {
 
 .copyright p {
     margin: 0;
-    font-size: 8px;
+    font-size: 10px;
+
 }
 
 .nested-menu {
@@ -419,7 +429,9 @@ social-media a {
     
 }
 
-
+.additional-paragraph {
+    display: none;
+}
 
 
 
