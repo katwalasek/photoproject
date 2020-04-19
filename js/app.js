@@ -32,7 +32,7 @@ const menuTriggerEl = document.querySelector(".menu-trigger-el");
     const input = document.querySelector(".newsletter-form input");
     const newsletterButton = document.querySelector(".newsletter-form button");
     const formInfo = document.querySelector(".form-info");
-    console.log(formInfo);
+    
     
     newsletterButton.addEventListener("click", function(event) {
         event.preventDefault();
@@ -45,8 +45,41 @@ const menuTriggerEl = document.querySelector(".menu-trigger-el");
             formInfo.textContent = "Please, apply your email address";
                }
         
-    })
+    });
     
+    const slider = document.querySelector(".slider");
+    const sliderStage = document.querySelector(".slider-stage");
+    const slides = document.querySelectorAll(".slider li");
+    const prev = document.querySelector(".previous-arrow");
+    const next = document.querySelector(".next-arrow");
+    
+    const slideWith = slides[0].clientWidth;
+    let currentIndex = 0;
+    let slidesNumber = slides.length -1;
+    
+    function goToSlide(index) { 
+        if (index < 0) {
+            index = slidesNumber;
+        } else if  (index > slidesNumber) {
+            index = 0;
+        }
+        
+        
+        slider.style.left = index * (-slideWith) + "px";
+        currentIndex = index;
+    }
+    
+    function slideToNext() {
+        goToSlide(currentIndex + 1);
+    }
+    
+    
+    function slideToPrev() {
+        goToSlide(currentIndex - 1);
+    }
+    
+    prev.addEventListener("click", slideToPrev);
+    next.addEventListener("click", slideToNext);
     
     
     

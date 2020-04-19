@@ -255,6 +255,7 @@ nav li {
 
 .slider-stage {
     width: 500px;
+    overflow-x: hidden;
 }
 
 .slider {
@@ -262,7 +263,8 @@ nav li {
     width: 500px;
     padding: none;
     display: flex;
-    overflow-x: hidden;
+    position: relative;
+
 }
 
 .go-up{
