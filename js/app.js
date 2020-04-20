@@ -80,7 +80,7 @@ const menuTriggerEl = document.querySelector(".menu-trigger-el");
     
     prev.addEventListener("click", slideToPrev);
     next.addEventListener("click", slideToNext);
-    
+    setInterval(slideToNext, 4000);
     
     
 });
