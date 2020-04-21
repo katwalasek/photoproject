@@ -82,6 +82,17 @@ const menuTriggerEl = document.querySelector(".menu-trigger-el");
     next.addEventListener("click", slideToNext);
     setInterval(slideToNext, 4000);
     
+    const goUpButton = document.querySelector(".go-up i");
+    
+    goUpButton.addEventListener("click",function() {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+        
+    });
+    
     
 });
 
