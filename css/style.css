@@ -398,12 +398,12 @@ social-media a {
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 
 .copyright p {
-    margin: 0;
-    font-size: 10px;
-
+    margin: ;
+    font-size: 12px;
 }
 
 .nested-menu {
