@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    background-color: #aa5c68;
+    background-color: #c9af98;
     text-transform: uppercase;
     border: none;
     padding-left: 100px;
@@ -27,7 +27,7 @@ nav > ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #1A1A21;
 }
 
 nav a:hover {
@@ -60,11 +60,12 @@ nav li {
     font-size: 100px;
     text-transform: uppercase;
     margin:0;
+    color: #c9af98;
 }
 
 .main-button .see-button {
-    background-color: black;
-    color: #db8a96;
+    background-color: #1A1A21;
+    color: #c9af98;
     padding: 12px 50px;
     border: none;
     border-radius: 5px;
@@ -80,7 +81,7 @@ nav li {
 
 .what-we-offer {
     height: 300px;
-    background-color: #e3e7e6;
+    background-color: #c9af98;
     border-bottom: .5px solid grey;
     display: flex;
     align-items: center;
@@ -93,21 +94,24 @@ nav li {
     font-family: "Bauhaus 93";
     margin: 0px 2px 10px 0;
     font-size: 20px;
+    color: #1A1A21;
 }
 
 .bullets ul {
     list-style: none;
     padding-left: 0;
+    color: #1A1A21;
 }
 
 .bullets i {
-    color: #aa5c68;
+    color: #1A1A21;
     padding-right: 15px;
 }
 
 .bullets li {
     font-size: 11px;
     margin-bottom: 20px;
+    color: #1A1A21;
 }
 
 .image img {
@@ -118,12 +122,12 @@ nav li {
     display: flex;
     padding: 0 100px;
     justify-content:space-between;
-    background-color: #aa5c68;
+    background-color: #363639;
 }
 
 
 .buckets figure {
-    background-color: #e3e7e6;
+    background-color: #c9af98;
     border: .5px solid grey;
     width: 200px;
     margin: 50px 0;
@@ -134,13 +138,13 @@ nav li {
 }
 
 .buckets h5 {
-    color: black;
+    color: #1A1A21;
     text-transform: uppercase;
     font-weight: 200;
 }
 
 .buckets p {
-    color: black;
+    color: #1A1A21;
     margin: 0;
     text-align: center;
     font-size: 9px;
@@ -148,8 +152,8 @@ nav li {
 }
 
 .buckets .read-more-less-button {
-    background-color: black;
-    color: #aa5c68;
+    background-color:#1A1A21;
+    color: #c9af98;
     font-family: "Bauhaus 93";
     font-size: 8px;
     padding: 6px 15px;
@@ -186,8 +190,8 @@ nav li {
 
 .newsletter {
     height: 120px;
-    background-color: #e3e7e6;
-    color:darkslategrey;
+    background-color: #343434;
+    color:#c9af98;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,8 +199,7 @@ nav li {
 
 .newsletter h5 {
     text-transform: uppercase;
-    font-family: "Bauhaus 93";
-    font-size: 20px;
+    font-size: 19px;
     margin: 0;
 }
 
@@ -210,6 +213,7 @@ nav li {
     border-radius: 5px;
     border: none;
     font-size: 10px;
+    background-color: #c9af98;
 }
 
 .newsletter-form input {
@@ -219,7 +223,7 @@ nav li {
 }
 
 .newsletter-form button {
-    background-color: #aa5c68;
+    background-color: #c9af98;
     color: black;
     padding: 0 15px;
 }
@@ -229,19 +233,20 @@ nav li {
     display: flex;
     align-items: center;
     justify-content:center;
+    background-color: #2F3035;
 }
 
 .previous-arrow,
 .next-arrow
 {
-    color: darkslategray;
+    color: #c9af98;
     padding: 20px;
     cursor: pointer;
 } 
 
 .previous-arrow: hover,
 .next-arrow: hover {
-    color: white;
+    color: #c9af98;
 }
 
 .slider-container i {
@@ -272,18 +277,19 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #2C2C36;
 }
 
 .go-up i {
     font-size: 35px;
     cursor: pointer;
-    color: darkslategrey;
+    color: #c9af98;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: darkslategrey;
+    background-color: #1A1A21;
     padding: 60px 100px;
 }
 
@@ -294,13 +300,13 @@ footer > section {
 .about-me h5 {
     font-weight: 200;
     margin: 0 0 17px ;
-    color: #e3e7e6;
+    color: #c9af98;
 }
 
 .about-me p {
     font-size: 12px;
     line-height: 1.8;
-    color: #e3e7e6;
+    color: #c9af98;
     margin: 0 0 17px 0;
 }
 
@@ -312,7 +318,7 @@ footer > section {
 }
 
 .social-media li {
-    background-color: #aa5c68;
+    background-color: #c9af98;
     margin-right: 10px;
     height: 25px;
     width: 25px;
@@ -324,7 +330,7 @@ footer > section {
 }
 
 social-media a {
-    color: #e3e7e6;
+    color: #c9af98;
     text-decoration: none;  
 }
 
@@ -344,13 +350,14 @@ social-media a {
     font-size: 12px;
     margin-bottom: 27px;
     display: flex;
-    color: #e3e7e6;
+    color: #c9af98;
     
 }
 
 .contact-details i {
     color: white;
     margin-right: 15px;
+    color: #c9af98;
 
 }
 
@@ -372,12 +379,12 @@ social-media a {
 
 .quick-links a {
     text-decoration: none;
-    color: white;
+    color: #c9af98;
     font-size: 12px;
 }
 
 .quick-links li {
-    border-bottom: .5px solid white;
+    border-bottom: .5px solid #c9af98;
     padding: 12px 0;
 }
 
@@ -391,9 +398,9 @@ social-media a {
 }
 
 .copyright {
-    background-color:#e3e7e6;
+    background-color:#1A1A21;
     height: 50px;
-    color: black;
+    color: #c9af98;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -426,7 +433,7 @@ social-media a {
 
 .nested-menu li:hover {
     color: white;
-    background-color:#aa5c68;
+    background-color:#c9af98;
     
 }
 
