@@ -423,5 +423,14 @@ social-media a {
     display: none;
 }
 
+.footflex {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
 
 
